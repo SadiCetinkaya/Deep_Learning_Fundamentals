@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def tanh(x):     
     return (1.0 - numpy.exp(-2*x))/(1.0 + numpy.exp(-2*x))
 
-def tanh_derivative(x):     
+def tanh_derivative(x):
     return (1 + tanh(x))*(1 - tanh(x))
 
 class NeuralNetwork:
